@@ -1,0 +1,50 @@
+body{
+    background: black;
+}
+
+section{
+    overflow: hidden;
+    background-color: #2628297a;
+    max-width: 500px;
+    margin: 200px auto;
+    padding: 50px;
+    border-radius: 30px;
+    position: relative;
+
+}
+
+
+section #refresh{
+    position: absolute;
+    top: 70px;
+    right: 40px;
+}
+
+section select{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 18pt;
+    cursor: pointer;
+    transition: .5s;
+}
+
+section select:hover{
+    border-radius: 10px;
+}
+
+section input{
+    padding: 2px;
+}
+
+section button{
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section #res {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+
+}
